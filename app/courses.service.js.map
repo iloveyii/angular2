@@ -1,0 +1,1 @@
+{"version":3,"file":"courses.service.js","sourceRoot":"","sources":["courses.service.ts"],"names":["CoursesService","CoursesService.constructor","CoursesService.getCourses"],"mappings":";;;;;YAAA;gBAAAA;gBAIAC,CAACA;gBAHGD,mCAAUA,GAAVA;oBACIE,MAAMA,CAACA,CAACA,SAASA,EAAEA,SAASA,EAAEA,SAASA,CAACA,CAACA;gBAC7CA,CAACA;gBACLF,qBAACA;YAADA,CAACA,AAJD,IAIC;YAJD,2CAIC,CAAA"}
