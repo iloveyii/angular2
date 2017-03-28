@@ -1,4 +1,6 @@
 import {Component} from 'angular2/core'
+import {AuthorsService} from './authors.service';
+import {AuthorsService} from "./authors.service";
 
 @Component({
     selector: 'authors',
@@ -10,15 +12,16 @@ import {Component} from 'angular2/core'
             {{ author }}
         </li>
     </ul>
-    `
+    `,
+    providers: [AuthorsService]
 })
 
 export class AuthorsCompnonent {
     title = 'The title of the authors page';
-    authors = ['Author1', 'Author2', 'Author3'];
+    authors;
 
-    Constructor() {
-        this.authors = ['Author1', 'Author2', 'Author3'];
+    constructor(authorsService: AuthorsService) {
+        this.authors = authorsService.getAuthors();
     }
 
 }
